@@ -1,8 +1,28 @@
 # Dhvani_Hackathon
 
+## Question_1 :- Defect Detection in Circular Objects
+This project implements an image-processing algorithm to detect and classify defects in circular objects such as rings, washers, or gaskets.
+The algorithm works by:
+
+Preprocessing the image (grayscale, Gaussian blur, Otsu threshold).
+
+Extracting the largest outer and inner circular contours.
+
+Fitting ideal circles and measuring radial deviations.
+
+Detecting abnormal regions using an adaptive threshold based on Median Absolute Deviation (MAD).
+
+Classifying defects as Flash or Cut depending on deviation direction and location (inner/outer).
+
+Annotating images with defect labels and bounding boxes.
+
+The script processes multiple input images, saves annotated results, and packages them into a downloadable ZIP file for convenience.
+
 
 
 ## Question_2 :- Simulate and visualize a 3D dynamical system (Lorenz attractor) that models a “bee’s” path in space.
+
+
 
 ## Question_3 :- Vehicle Detection & Classification (Hackathon)
 Goal. Detect vehicles in road scenes and classify them into car, rickshaw, bus, motorbike, returning bounding boxes + class labels.
